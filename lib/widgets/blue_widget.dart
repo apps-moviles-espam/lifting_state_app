@@ -7,7 +7,7 @@ class BlueWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(50.0),
+      padding: const EdgeInsets.all(10.0),
       child: Container(
         color: Colors.blue[200],
         child: const ButtonWidget(),

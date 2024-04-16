@@ -8,17 +8,16 @@ class CounterWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(50.0),
+      padding: const EdgeInsets.all(10.0),
       child: Container(
         color: Colors.purple[200],
         child: Center(
           child: Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(10.0),
             child: Text(
               counter.toString(),
               style: const TextStyle(
-                fontSize: 42.0,
-                letterSpacing: -2.0,
+                fontSize: 22.0,
                 fontWeight: FontWeight.bold,
               ),
             ),

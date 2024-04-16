@@ -6,7 +6,7 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(50.0),
+      padding: const EdgeInsets.all(10.0),
       child: TextButton(
         onPressed: () {
           // ignore: avoid_print
@@ -15,14 +15,13 @@ class ButtonWidget extends StatelessWidget {
           print("...but we want that counter to be updated!!!");
         },
         child: const Padding(
-          padding: EdgeInsets.all(20.0),
+          padding: EdgeInsets.all(10.0),
           child: Text(
             'Update counter',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 36.0,
-              letterSpacing: -2.0,
+              fontSize: 22.0,
               fontWeight: FontWeight.bold,
             ),
           ),
